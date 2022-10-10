@@ -24,10 +24,10 @@ public class Main {
 		Random random = new Random();
 
 		int minute = 1; // mac dakikasi
-		int attackingTeam = 0; // hangi takimin atak yapacak?
+		int attackingTeam = 0; // hangi takim atak yapacak?
 		int whichFootballer = 0; // takimin kacinci oyuncusu eylem yapacak?
 		int whichAction = 0; // oyuncu hangi eylemi yapacak?
-		int whichActionAfterDribbling = 0; // rakibini gectikten sonra hangi eylemi yapacak?
+		int whichActionAfterDribbling = 0; // oyuncu rakibini gectikten sonra hangi eylemi yapacak?
 		int previousFootballerGs = -1; // futbolcunun kendi kendine pas vermemesi icin kontrol
 		int previousFootballerFb = -1;
 		int fbGolSayisi = 0; // skor icin gol sayaci
